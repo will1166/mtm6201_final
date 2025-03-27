@@ -5,3 +5,11 @@
 nav img{
     width: 50%;
 }
+
+.offcanvas{
+    background-color: #71B3F4;
+}
+
+.nav-item{
+    text-align: center;
+}
