@@ -10,14 +10,6 @@ body{
 }
 
 /* header style */
-header{
-    margin-bottom: 150px;
-}
-
-nav{
-    height: 20%;
-}
-
 nav img{
     width: 50%;
 }
@@ -42,6 +34,11 @@ nav img{
 }
 
 /* style for the main */
+
+.heroSection{
+    margin-top: 100px;
+}
+
 main h1,
 main h2{
     text-align: center;
@@ -63,8 +60,6 @@ main h3{
 }
 
 /* activities section */
-
-
 .alcActivities img{
     width: 100px;
     height: 100px;
