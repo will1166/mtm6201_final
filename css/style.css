@@ -1,6 +1,7 @@
 :root{
     --primary-colour: #71B3F4;
     --background-white: #F1F1F1;
+    --text-black: #222222;
 }
 
 body{
@@ -17,6 +18,11 @@ nav{
 
 nav img{
     width: 50%;
+}
+
+.navbar-toggler{
+    width: 20%;
+    border: none;
 }
 
 .bg-body-tertiary,
@@ -48,7 +54,30 @@ main > h2{
     font-size: x-large;
 }
 
+button{
+    width: 100%;
+}
 
+.btn-secondary{
+    border: 2px solid var(--primary-colour) !important;
+    background-color: var(--background-white) !important;
+    color: var(--text-black) !important;
+}
+
+.joinALC{
+    background-color: var(--text-black);
+}
+
+.joinALC > p{
+    color: var(--primary-colour);
+}
+
+.btn-primary{
+    background-color: var(--primary-colour) !important;
+    color: black;
+}
+
+/* footer style */
 footer > .card,
 footer .list-group-item{
     background-color: var(--primary-colour);
@@ -80,8 +109,4 @@ footer .list-group-item{
 
 .infoFooter .card-body{
     width: 50%;
-}
-
-button{
-    width: 100%;
 }
