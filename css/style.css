@@ -130,6 +130,7 @@ footer .list-group-item{
 .infoFooter{
     display: flex;
     flex-wrap: wrap;
+    font-si
 }
 
 .infoFooter img{
@@ -140,6 +141,7 @@ footer .list-group-item{
 
 .infoFooter .card-body{
     width: 50%;
+    font-size: 0.8em;
 }
 
 .socialMediaIcons{
