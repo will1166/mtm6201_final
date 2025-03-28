@@ -2,12 +2,14 @@
     --primary-colour: #71B3F4;
     --background-white: #F1F1F1;
     --text-black: #222222;
+    --opacity-primary-color: rgba(113, 179, 244, 0.5);
 }
 
 body{
     background-color: var(--background-white);
 }
 
+/* header style */
 header{
     margin-bottom: 150px;
 }
@@ -39,9 +41,15 @@ nav img{
     text-align: center;
 }
 
-main > h1,
-main > h2{
+/* style for the main */
+main h1,
+main h2{
     text-align: center;
+}
+
+main h2,
+main h3{
+    background-color: var(--opacity-primary-color);
 }
 
 .carousel-inner{
