@@ -3,10 +3,23 @@
     --background-white: #F1F1F1;
     --text-black: #222222;
     --opacity-primary-color: rgba(113, 179, 244, 0.5);
+    --fonts-headings: 'Raleway', sans-serif;
+    --fonts-paragraphs: 'DM Sans', sans-serif;
 }
 
 body{
     background-color: var(--background-white);
+    font-family: var(--fonts-paragraphs);
+}
+
+body h1,
+body h2,
+body h3{
+    font-family: var(--fonts-headings);
+}
+
+body p{
+    font-size: 1.5em;
 }
 
 /* header style */
@@ -34,9 +47,8 @@ nav img{
 }
 
 /* style for the main */
-
 .heroSection{
-    margin-top: 100px;
+    padding-top: 10em;
 }
 
 main h1,
@@ -70,6 +82,10 @@ main h3{
 
 button{
     width: 100%;
+}
+
+.btn{
+    font-size: 1.5em;
 }
 
 .btn-secondary{
