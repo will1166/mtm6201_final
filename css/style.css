@@ -87,7 +87,7 @@ button{
     background-color: var(--text-black);
 }
 
-.joinALC > p{
+.joinALC > h4{
     color: var(--primary-colour);
 }
 
