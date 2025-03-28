@@ -2,6 +2,11 @@
     --primary-colour: #71B3F4;
 }
 
+header{
+    margin-bottom: 150px;
+}
+
+
 nav img{
     width: 50%;
 }
