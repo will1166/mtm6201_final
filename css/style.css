@@ -1,17 +1,26 @@
 :root{
     --primary-colour: #71B3F4;
+    --background-white: #F1F1F1;
+}
+
+body{
+    background-color: var(--background-white);
 }
 
 header{
     margin-bottom: 150px;
 }
 
+nav{
+    height: 20%;
+}
 
 nav img{
     width: 50%;
 }
 
-.bg-body-tertiary{
+.bg-body-tertiary,
+.offcanvas{
     background-color: #71B3F4 !important;
 }
 
@@ -71,4 +80,8 @@ footer .list-group-item{
 
 .infoFooter .card-body{
     width: 50%;
+}
+
+button{
+    width: 100%;
 }
