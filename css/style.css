@@ -62,6 +62,17 @@ main h3{
     background-color: var(--primary-colour);
 }
 
+/* activities section */
+
+
+.alcActivities img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
 button{
     width: 100%;
 }
