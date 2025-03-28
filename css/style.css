@@ -14,7 +14,8 @@ body{
 
 body h1,
 body h2,
-body h3{
+body h3,
+.nav-item{
     font-family: var(--fonts-headings);
 }
 
@@ -41,9 +42,20 @@ nav img{
     flex-wrap: nowrap;
 }
 
+.navbar-nav{
+    margin: 4em;
+}
+
+.nav-item:nth-child(4) a{
+    background-color: var(--text-black);
+    color: var(--background-white);
+    border-radius: 2em;
+}
+
 
 .nav-item{
     text-align: center;
+    padding-top: 1em;
 }
 
 /* style for the main */
@@ -86,6 +98,10 @@ button{
 
 .btn{
     font-size: 1.5em;
+}
+
+.btn:hover{
+    color: var(--text-black) !important;
 }
 
 .btn-secondary{
