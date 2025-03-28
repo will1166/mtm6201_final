@@ -33,3 +33,37 @@ main > h2{
     color: var(--primary-colour);
     font-size: x-large;
 }
+
+
+footer > .card,
+footer .list-group-item{
+    background-color: var(--primary-colour);
+}
+
+footer .list-group-item{
+    border: none;
+    text-align: center;
+}
+
+.card >.list-group{
+    border: none;
+}
+
+.list-group ul li{
+    background-color: var(--primary-colour);
+}
+
+
+.infoFooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoFooter img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.infoFooter .card-body{
+    width: 50%;
+}
