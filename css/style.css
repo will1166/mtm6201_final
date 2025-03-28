@@ -11,9 +11,14 @@ nav img{
     width: 50%;
 }
 
-.offcanvas{
-    background-color: #71B3F4;
+.bg-body-tertiary{
+    background-color: #71B3F4 !important;
 }
+
+.navbar >.container-fluid{
+    flex-wrap: nowrap;
+}
+
 
 .nav-item{
     text-align: center;
