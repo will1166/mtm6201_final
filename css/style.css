@@ -23,3 +23,13 @@ main > h1,
 main > h2{
     text-align: center;
 }
+
+.carousel-inner{
+    width: 80%;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    color: var(--primary-colour);
+    font-size: x-large;
+}
