@@ -105,8 +105,14 @@ footer .list-group-item{
 .infoFooter img{
     width: 50%;
     object-fit: contain;
+    align-self: center;
 }
 
 .infoFooter .card-body{
     width: 50%;
+}
+
+.socialMediaIcons{
+    display: flex;
+    justify-content: space-between;
 }
