@@ -53,13 +53,13 @@ main h3{
 }
 
 .carousel-inner{
-    width: 80%;
+    width: 70%;
+    margin: auto;
 }
 
-.carousel-control-prev,
-.carousel-control-next{
-    color: var(--primary-colour);
-    font-size: x-large;
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: var(--primary-colour);
 }
 
 button{
