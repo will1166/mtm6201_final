@@ -136,7 +136,7 @@ button{
 }
 
 /* footer style */
-footer > .card,
+footer,
 footer .list-group-item{
     background-color: var(--primary-colour);
 }
@@ -146,30 +146,22 @@ footer .list-group-item{
     text-align: center;
 }
 
-.card >.list-group{
-    border: none;
-}
-
-.list-group ul li{
-    background-color: var(--primary-colour);
-}
-
-
 .infoFooter{
     display: flex;
     flex-wrap: wrap;
-    font-si
 }
 
 .infoFooter img{
-    width: 50%;
+    width: 40%;
     object-fit: contain;
     align-self: center;
 }
 
-.infoFooter .card-body{
+.infoFooter .contactALC{
     width: 50%;
     font-size: 0.8em;
+    margin-left: 1em;
+    padding: 1em 0;
 }
 
 .socialMediaIcons{
