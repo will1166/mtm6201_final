@@ -50,12 +50,8 @@ nav img{
     background-color: #71B3F4 !important;
 }
 
-.navbar >.container-fluid{
+.navbar > .container-fluid{
     flex-wrap: nowrap;
-}
-
-.navbar-nav{
-    margin: 4em;
 }
 
 .nav-item:nth-child(4) a{
