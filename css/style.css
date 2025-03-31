@@ -87,9 +87,11 @@ main h3{
     margin: auto;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon{
-    background-color: var(--primary-colour);
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    background-color: var(--primary-colour); /* Change background */
+    fill: var(--text-black); 
 }
 
 /* activities section */
@@ -101,9 +103,12 @@ main h3{
     object-fit: cover;
 }
 
-.alcActivities > .arrow{
-    background-color: var(--primary-colour);
+.arrowRight svg,
+.arrowLeft svg{
+    background-color: var(--primary-colour); /* Change background */
+    fill: var(--text-black); 
 }
+
 
 button{
     width: 100%;
