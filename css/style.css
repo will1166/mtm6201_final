@@ -94,11 +94,15 @@ main h3{
 
 /* activities section */
 .alcActivities img{
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
+}
 
+.alcActivities > .arrow{
+    background-color: var(--primary-colour);
 }
 
 button{
