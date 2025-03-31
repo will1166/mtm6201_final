@@ -189,6 +189,11 @@ footer .list-group-item{
     color: var(--text-black);
 }
 
+.openingHours{
+    padding-top: 7em;
+}
+
+
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
