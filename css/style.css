@@ -199,11 +199,6 @@ footer .list-group-item{
     text-align: left;
 }
 
-.accordion-header{
-    background-color: var(--primary-colour) !important;
-}
-
-
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
