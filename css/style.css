@@ -156,7 +156,8 @@ footer .list-group-item{
     width: 30%;
     object-fit: contain;
     align-self: flex-start;
-    margin-top: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 .infoFooter .contactALC{
