@@ -166,6 +166,13 @@ footer .list-group-item{
     justify-content: space-between;
 }
 
+.socialMediaIcons > a:link,
+.socialMediaIcons > a:visited,
+.socialMediaIcons > a:focus,
+.socialMediaIcons > a:hover{
+    color: var(--text-black);
+}
+
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
