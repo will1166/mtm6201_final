@@ -134,6 +134,7 @@ button{
 
 .joinALC > h4{
     color: var(--primary-colour);
+    text-wrap: initial;
 }
 
 .btn-primary{
