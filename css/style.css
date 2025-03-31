@@ -21,11 +21,11 @@ body h3,
 }
 
 body h1{
-    font-size: 2.5em !important;
+    font-size: 2em !important;
 }
 
 body h2{
-    font-size: 2em !important;
+    font-size: 1.75em !important;
 }
 
 body h3{
@@ -33,7 +33,7 @@ body h3{
 }
 
 body p{
-    font-size: 1em !important;
+    font-size: 1.25em !important;
 }
 
 /* header style */
@@ -190,6 +190,7 @@ footer .list-group-item{
     color: var(--text-black);
 }
 
+/* CSS for the schedule page */
 .openingHours{
     padding-top: 8em;
 }
@@ -198,27 +199,31 @@ footer .list-group-item{
     text-align: left;
 }
 
+.accordion-header{
+    background-color: var(--primary-colour) !important;
+}
+
 
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
-        font-size: 2em !important;
+        font-size: 2.5em !important;
     }
     
     body h2{
-        font-size: 1.5em !important;
+        font-size: 2em !important;
     }
     
     body h3{
-        font-size: 1.25em !important;
+        font-size: 1.75em !important;
     }
     
     body p{
-        font-size: 1em !important;
+        font-size: 1.25em !important;
     }
     
     .btn{
-        font-size: 1.25em;
+        font-size: 1.75em;
     }
 }
 
