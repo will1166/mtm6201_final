@@ -184,6 +184,9 @@ footer .list-group-item{
         font-size: 1em !important;
     }
     
+    .btn{
+        font-size: 1.25em;
+    }
 }
 
 /* media query for desktop */
@@ -202,5 +205,9 @@ footer .list-group-item{
     
     body p{
         font-size: 1.25em !important;
-    }    
+    }
+
+    .btn{
+        font-size: 2em;
+    }
 }
