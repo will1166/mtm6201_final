@@ -37,6 +37,10 @@ body p{
 }
 
 /* header style */
+header{
+    padding-top: 8em;
+}
+
 nav img{
     width: 50%;
 }
@@ -191,10 +195,6 @@ footer .list-group-item{
 }
 
 /* CSS for the schedule page */
-.openingHours{
-    padding-top: 8em;
-}
-
 .headingSchedule{
     text-align: left;
 }
@@ -202,6 +202,8 @@ footer .list-group-item{
 .accordion-button{
     font-size: 1.5rem !important;
 }
+
+/* CSS for the about page */
 
 /* media query for tablet */
 @media screen and (min-width: 768px){
@@ -225,7 +227,6 @@ footer .list-group-item{
         font-size: 1.75em;
     }
 
-    /*  */
 }
 
 /* media query for desktop */
