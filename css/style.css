@@ -199,6 +199,10 @@ footer .list-group-item{
     text-align: left;
 }
 
+.accordion-button{
+    font-size: 1.5rem !important;
+}
+
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
@@ -220,6 +224,8 @@ footer .list-group-item{
     .btn{
         font-size: 1.75em;
     }
+
+    /*  */
 }
 
 /* media query for desktop */
