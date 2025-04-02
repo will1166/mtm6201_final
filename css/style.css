@@ -207,6 +207,11 @@ footer .list-group-item{
 }
 
 /* CSS for the about page */
+.card-body{
+    width: 100%;
+    background-color: var(--opacity-primary-color);
+    border: 10px var(--primary-colour) solid;
+}
 
 /* media query for tablet */
 @media screen and (min-width: 768px){
