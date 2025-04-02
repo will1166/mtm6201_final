@@ -155,7 +155,7 @@ footer .list-group-item{
 
 .infoFooter{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .infoFooter img{
@@ -167,20 +167,19 @@ footer .list-group-item{
 }
 
 .infoFooter .contactALC{
-    width: 65%;
+    width: 60%;
     font-size: 0.8em;
     margin-left: 1em;
     padding: 1em 0;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-end;
-    align-self: flex-start;
 }
 
 .socialMediaIcons{
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    gap: 4em;
 }
 
 .socialMediaIcons > a:link,
@@ -188,6 +187,14 @@ footer .list-group-item{
 .socialMediaIcons > a:focus,
 .socialMediaIcons > a:hover{
     color: var(--text-black);
+}
+
+.list-group-item > a:link,
+.list-group-item > a:visited,
+.list-group-item > a:focus,
+.list-group-item > a:hover{
+    color: var(--text-black);
+    text-decoration: none;
 }
 
 /* CSS for the schedule page */
