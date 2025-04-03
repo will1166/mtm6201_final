@@ -246,7 +246,7 @@ footer .list-group-item{
 }
 
 /* media query for desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     body h1{
         font-size: 3em !important;
     }
@@ -265,6 +265,13 @@ footer .list-group-item{
 
     .btn{
         font-size: 1.35em;
-    
+    }
 
+    .navbar img{
+        width: 240px;
+    }
+
+    .nav-item{
+        font-size: 1.35em;
+    }
 }
