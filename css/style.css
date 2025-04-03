@@ -42,21 +42,17 @@ header{
 }
 
 nav img{
-    width: 50%;
+    width: 240px;
 }
 
 .navbar-toggler{
-    width: 20%;
+    width: 10%;
     border: none;
 }
 
 .bg-body-tertiary,
 .offcanvas{
     background-color: #71B3F4 !important;
-}
-
-.navbar > .container-fluid{
-    flex-wrap: nowrap;
 }
 
 .nav-item:nth-child(4) a{
@@ -115,7 +111,7 @@ button{
 }
 
 .btn{
-    font-size: 1.5em;
+    font-size: 1.35em;
 }
 
 .btn:hover{
@@ -235,6 +231,18 @@ footer .list-group-item{
         font-size: 1.75em;
     }
 
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-brand img{
+        width: 50%;
+    }
+
+    .navbar-toggler{
+        width: 10%;
+    }
 }
 
 /* media query for desktop */
@@ -256,6 +264,7 @@ footer .list-group-item{
     }
 
     .btn{
-        font-size: 2em;
-    }
+        font-size: 1.35em;
+    
+
 }
