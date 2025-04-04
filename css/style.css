@@ -55,10 +55,36 @@ nav img{
     background-color: #71B3F4 !important;
 }
 
+/* style for the join the ALC button on the nav */
 .nav-item:nth-child(4) a{
+    background-color: var(--text-black) !important;
+    color: var(--background-white) !important;
+    border-radius: 3em;
+}
+
+.hvr-bounce-to-right{
+    color: inherit !important;
+    position: relative;
+}
+
+.hvr-bounce-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: var(--text-black);
-    color: var(--background-white);
-    border-radius: 2em;
+    border-radius: 3em;
+    transform: none !important;
+    transition: none !important;
+}
+  
+.hvr-bounce-to-right:hover,
+.hvr-bounce-to-right:focus,
+.hvr-bounce-to-right:active {
+    color: inherit;
 }
 
 .nav-item{
@@ -133,13 +159,13 @@ button{
     background: var(--background-white);
     transform: none;
     transition: none;
-  }
+}
   
   .hvr-sweep-to-right:hover,
   .hvr-sweep-to-right:focus,
   .hvr-sweep-to-right:active {
     color: inherit;
-  }
+}
   
 
 .btn-secondary{
