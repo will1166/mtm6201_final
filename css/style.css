@@ -21,19 +21,23 @@ body h3,
 }
 
 body h1{
-    font-size: 2em !important;
+    font-size: 2em;
 }
 
 body h2{
-    font-size: 1.75em !important;
+    font-size: 1.75em;
 }
 
 body h3{
-    font-size: 1.5em !important;
+    font-size: 1.5em;
 }
 
 body p{
-    font-size: 1.25em !important;
+    font-size: 1.25em;
+}
+
+.btn{
+    font-size: 1.25em;
 }
 
 /* header style */
@@ -133,10 +137,6 @@ main h3{
 
 button{
     width: 100%;
-}
-
-.btn{
-    font-size: 1.35em;
 }
 
 .btn:hover{
@@ -287,23 +287,23 @@ footer .list-group-item{
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
-        font-size: 2.5em !important;
+        font-size: 2.5em;
     }
     
     body h2{
-        font-size: 2em !important;
+        font-size: 2em;
     }
     
     body h3{
-        font-size: 1.75em !important;
+        font-size: 1.75em;
     }
     
     body p{
-        font-size: 1.25em !important;
+        font-size: 1.35em !important;
     }
     
     .btn{
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 
     nav{
@@ -323,23 +323,23 @@ footer .list-group-item{
 /* media query for desktop */
 @media screen and (min-width: 1200px) {
     body h1{
-        font-size: 3em !important;
+        font-size: 3em;
     }
     
     body h2{
-        font-size: 2.5em !important;
+        font-size: 2.5em;
     }
     
     body h3{
-        font-size: 2em !important;
+        font-size: 2em;
     }
     
     body p{
-        font-size: 1.25em !important;
+        font-size: 1.5em;
     }
 
     .btn{
-        font-size: 1.35em;
+        font-size: 1.75em;
     }
 
     .navbar img{
