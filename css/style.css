@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: var(--background-white);
+    background-color: var(--background-white) !important;
     font-size: 16px;
     font-family: var(--fonts-paragraphs);
 }
@@ -75,7 +75,7 @@ main h2{
 
 main h2,
 main h3{
-    background-color: var(--opacity-primary-color);
+    background-color: var(--opacity-primary-color) !important;
 }
 
 .carousel-inner{
@@ -170,7 +170,6 @@ button{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--primary-colour);
     transform: none;
     transition: none;
  }
@@ -346,10 +345,10 @@ footer .list-group-item{
         content:"";
         position:absolute;
         z-index:-1;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         background: var(--primary-colour);
         -webkit-transform:scaleX(0);
         transform:scaleX(0);
