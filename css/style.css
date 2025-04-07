@@ -40,6 +40,32 @@ body p{
     font-size: 1.25em;
 }
 
+.container, 
+#offcanvasNavbar{
+    margin-top: 1em;
+}
+
+/* style for skip links */
+.skip-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--background-white);
+    width: 100%;
+    z-index: 1050;
+    display: flex;
+    gap: 3em;
+    font-size: 1em;
+    padding-left: 1.5em;  
+}
+
+a:focus,
+.navbar-toggler     :focus,
+.btn-close:focus{
+    border: 5px solid red;     
+    top: 10px;
+}
+
 /* header style */
 header{
     padding-top: 9em;
@@ -146,6 +172,7 @@ button{
 /* disable hover effects for secondary button on smaller screens */
 .hvr-sweep-to-right{
     color: inherit;
+    border: var(--primary-colour);
 }
 
 .hvr-sweep-to-right:before {
@@ -161,17 +188,21 @@ button{
     transition: none;
 }
   
-  .hvr-sweep-to-right:hover,
-  .hvr-sweep-to-right:focus,
-  .hvr-sweep-to-right:active {
-    color: inherit;
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active{
+    color: var(--background-white);
 }
   
 
 .btn-secondary{
-    border: 5px solid var(--primary-colour) !important;
+    border: 5px solid var(--primary-colour) !important      ;
     background-color: var(--background-white) !important;
-    color: var(--text-black) !important;
+}
+
+.btn-secondary a{
+    text-decoration: none;
+    color: var(--text-black);
 }
 
 .joinALC{
@@ -210,8 +241,6 @@ button{
     border: 5px solid var(--primary-colour) !important;
     color: black !important;
 }
-
-  
 
 /* footer style */
 footer,
