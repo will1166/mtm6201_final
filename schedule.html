@@ -19,8 +19,8 @@
           <a href="#mainContent" id="skipToMainContent">Skip to main content</a>
       </div>
       <div class="container">
-          <header role="">
-              <nav class="navbar bg-body-tertiary fixed-top d-xl-none">
+          <header role="banner">
+              <nav role="navigation" class="navbar bg-body-tertiary fixed-top d-xl-none">
                   <div class="container">
                       <a class="navbar-brand" href="./index.html"><img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre"></a>
                       <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
                       </div>
                   </div>
               </nav>
-              <nav class="navbar bg-body-tertiary fixed-top d-none d-xl-flex">
+              <nav role="navigation" class="navbar bg-body-tertiary fixed-top d-none d-xl-flex">
                   <div class="container d-flex justify-content-between align-items-center">
                       <a class="navbar-brand" href="./index.html">
                           <img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre">
@@ -64,7 +64,7 @@
                   </div>
               </nav>
           </header>   
-          <main>
+          <main role="main" id="mainContent">
             <section class="openingHours">
               <h2 class="headingSchedule px-3 fw-bold">Opening Hours</h2>
               <p class="pt-2">Ready to be part of the ALC community? <strong>Check out our opening hours, plan your visit, and join us!</strong></p>
@@ -261,7 +261,7 @@
                 <button type="button" class="btn btn-primary btn-lg btn-block fw-bold">Get More Details</button>
             </section>
         </main>
-        <footer>
+        <footer role="contentinfo">
           <div class="infoFooter">
               <img class="img-fluid" src="./images/logo/logo-ACL.png" alt="ACL's logo">
               <div class="contactALC">
