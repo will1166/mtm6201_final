@@ -14,12 +14,13 @@
 </head>
 <body>
     <div class="skip-links">
-        <a href="#offcanvasNavbar" id="skipToNav" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">Skip to navigation</a>
+        <a href="#offcanvasNavbar" class="d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">Skip to navigation</a>
+        <a href="#skipToNavDesktop" class="d-none d-xl-flex">Skip to navigation</a>
         <a href="#mainContent" id="skipToMainContent">Skip to main content</a>
     </div>
     <div class="container">
         <header role="">
-            <nav class="navbar bg-body-tertiary fixed-top">
+            <nav class="navbar bg-body-tertiary fixed-top d-xl-none">
                 <div class="container">
                     <a class="navbar-brand" href="./index.html"><img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre"></a>
                     <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -55,7 +56,7 @@
                         <img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre">
                     </a>
                     <ul class="navbar-nav navbarDesktop d-flex flex-row gap-4 fw-bold">
-                        <li class="nav-item"><a class="nav-link active" href="./schedule.html">Schedule</a></li>
+                        <li class="nav-item" id="skipToNavDesktop"><a class="nav-link active" href="./schedule.html">Schedule</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.html">About the ALC</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.html#formALC">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link px-4" href="#">Join the ALC</a></li>
@@ -120,7 +121,7 @@
                 <h3 class="fw-bold px-3">Meet the ALC</h3>
                 <img src="./images/home/ALC-gym.jpg" class="img-fluid" alt="Responsive image">
                 <p class="pt-2"><strong>Discover Ottawa’s newest hub for fitness, sports, and wellness.</strong> Stay active, connect with others, and enjoy a healthier lifestyle—all in one place!</p>
-                <button type="button" class="btn btn-secondary fw-bold hvr-sweep-to-right"><a href="./about.html">More About the ALC</a></button>
+                <a href="./about.html"><button type="button" class="btn btn-secondary fw-bold hvr-sweep-to-right">More About the ALC</a></button>
             </section>
             <section class="joinALC mx-0 my-3 p-3">
                 <h4 class="display-6 fw-bold p-2"><strong>Looking for more information about the ALC's membership fees? Join us for a free trial!</strong></h4>

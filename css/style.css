@@ -59,11 +59,23 @@ body p{
     padding-left: 1.5em;  
 }
 
+a:link,
+a:visited,
+a:hover,
 a:focus,
-.navbar-toggler     :focus,
-.btn-close:focus{
-    border: 5px solid red;     
-    top: 10px;
+a:active,
+.navbar-toggler:focus,
+.btn-close:focus {
+    text-decoration: none;
+    border: none !important;
+    outline: none !important        ;
+}
+
+a:focus-visible,
+.navbar-toggler:focus-visible,
+.btn-close:focus-visible{
+    border: 5px solid red !important;
+    outline: none !important;
 }
 
 /* header style */
@@ -72,7 +84,7 @@ header{
 }
 
 nav img{
-    width: 240px;
+    width: 240px;    
 }
 
 .navbar-toggler{

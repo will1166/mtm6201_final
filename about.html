@@ -13,9 +13,14 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="skip-links">
+        <a href="#offcanvasNavbar" class="d-xl-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">Skip to navigation</a>
+        <a href="#skipToNavDesktop" class="d-none d-xl-flex">Skip to navigation</a>
+        <a href="#mainContent" id="skipToMainContent">Skip to main content</a>
+    </div>
     <div class="container">
-        <header>
-            <nav class="navbar bg-body-tertiary fixed-top">
+        <header role="">
+            <nav class="navbar bg-body-tertiary fixed-top d-xl-none">
                 <div class="container">
                     <a class="navbar-brand" href="./index.html"><img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre"></a>
                     <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -51,14 +56,14 @@
                         <img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre">
                     </a>
                     <ul class="navbar-nav navbarDesktop d-flex flex-row gap-4 fw-bold">
-                        <li class="nav-item"><a class="nav-link active" href="./schedule.html">Schedule</a></li>
+                        <li class="nav-item" id="skipToNavDesktop"><a class="nav-link active" href="./schedule.html">Schedule</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.html">About the ALC</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.html#formALC">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link px-4" href="#">Join the ALC</a></li>
                     </ul>
                 </div>
             </nav>
-        </header>        
+        </header> 
         <main>
             <section class="aboutALC">
                 <h3 class="fw-bold px-3">About the ALC</h3>
