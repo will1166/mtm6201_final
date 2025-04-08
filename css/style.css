@@ -325,6 +325,14 @@ footer .list-group-item{
     border: 10px var(--primary-colour) solid;
 }
 
+.staffALC img{
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
