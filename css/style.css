@@ -359,6 +359,30 @@ footer .list-group-item{
     .navbar-toggler{
         width: 10%;
     }
+
+    .contentOpening{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        gap: 2em;
+    }
+
+    .accordion{
+        width: 100%;
+    }
+
+    .openingImage{
+        width: 100%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .openingImage img{
+        width: 90%;
+        object-fit: contain;
+    }
+    
 }
 
 /* media query for desktop */
@@ -390,6 +414,24 @@ footer .list-group-item{
     .nav-item{
         font-size: 1.35em;
         margin-left: 2em;
+    }
+
+    /* set grid size for the desktop */
+    .accordion{
+        width: 100%;
+        align-self: center;
+    }
+
+    .openingImage{
+        width: 100%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .openingImage img{
+        width: 70%;
+        object-fit: contain;
     }
 
     /* animation for the join the ALC button */
