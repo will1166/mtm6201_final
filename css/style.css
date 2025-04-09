@@ -323,6 +323,7 @@ footer .list-group-item{
 
 .accordion-button{
     font-size: 1.5rem !important;
+    background-color: var(--opacity-primary-color);
 }
 
 /* CSS for the about page */
