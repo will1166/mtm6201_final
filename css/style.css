@@ -421,6 +421,13 @@ footer .list-group-item{
         align-self: center;
     }
 
+    /* adjusts about page to tablet */
+    .employeesALC img{
+        max-width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
     /* changes the schedule page for tablet */
     .contentOpening, 
     .contentClasses{
@@ -437,7 +444,6 @@ footer .list-group-item{
         align-self: center;
         justify-content: center;
     }
-
 }
 
 /* media query for desktop */
