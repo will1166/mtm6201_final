@@ -135,18 +135,22 @@
                     </div>    
                 </div>
             </section>
-            <section class="meetALC container-fluid d-flex flex-column my-4">
+            <section class="meetALC container-fluid d-sm-flex flex-column my-4">
                 <h3 class="fw-bold px-3 py-2">Meet the ALC</h3>
-                <picture>
-                    <source srcset="images/home/small/ALC-gym.jpg" media="(max-width:768px)">
-                    <img src="./images/home/large/ALC-gym.jpg" class="img-fluid d-block mx-auto py-3" alt="Responsive image">
-                </picture>
-                <p class="mt-2 px-3"><strong>Discover Ottawa’s newest hub for fitness, sports, and wellness.</strong> Stay active, connect with others, and enjoy a healthier lifestyle—all in one place!</p>
-                <a href="./about.html" class="btn btn-secondary fw-bold hvr-sweep-to-right w-100" role="button">More About the ALC</a>
+                <div class="row">
+                    <picture class="col-md-6 align-self-center w-50">
+                        <source srcset="images/home/small/ALC-gym.jpg" media="(max-width:768px)">
+                        <img src="./images/home/large/ALC-gym.jpg" class="img-fluid d-block mx-auto py-3 col-md-6" alt="Responsive image">
+                    </picture>
+                    <div class="contentMeet col-md-6">
+                        <p class="mt-2 px-3"><strong>Discover Ottawa’s newest hub for fitness, sports, and wellness.</strong> Stay active, connect with others, and enjoy a healthier lifestyle—all in one place!</p>
+                        <a href="./about.html" class="btn btn-secondary fw-bold hvr-sweep-to-right w-100" role="button">More About the ALC</a>
+                    </div>
+                </div>
             </section>
-            <section class="joinALC mx-0 my-3 p-3">
-                <h4 class="display-6 fw-bold p-2"><strong>Looking for more information about the ALC's membership fees? Join us for a free trial!</strong></h4>
-                <button type="button" class="btn btn-primary btn-lg btn-block fw-bold hvr-primary-sweep-to-right">Get More Details</button>
+            <section class="joinALC mx-0 my-3 p-3 row">
+                <h4 class="display-6 fw-bold p-2 col-md-6"><strong>Looking for more information about the ALC's membership fees? Join us for a free trial!</strong></h4>
+                <button type="button" class="btn btn-primary btn-lg btn-block fw-bold hvr-primary-sweep-to-right col-md-6">Get More Details</button>
             </section>
         </main>
         <footer role="contentInfo">

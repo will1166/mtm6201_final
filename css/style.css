@@ -166,12 +166,6 @@ main h3{
     object-fit: cover;
 }
 
-.arrowRight svg,
-.arrowLeft svg{
-    background-color: var(--primary-colour); /* Change background */
-    fill: var(--text-black); 
-}
-
 
 a.btn.btn-secondary {
     border: 5px solid var(--primary-colour) !important;
@@ -400,6 +394,31 @@ footer .list-group-item{
 
     .navbar-toggler{
         width: 10%;
+    }
+
+    /* makes images larger for activities section on the homepage */
+    .alcActivities img{
+        max-width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    /* adjusts the meet the ALC section to tablet */
+    .contentMeet{
+        padding: 0 0 !important;
+    }
+
+    .contentMeet a{
+        width: 90% !important;
+    }
+
+    /* makes the get more details bar different for tablet */
+    .joinALC h4{
+        font-size: 2em !important;
+    }
+
+    .joinALC button{
+        align-self: center;
     }
 
     /* changes the schedule page for tablet */
