@@ -338,7 +338,11 @@ footer .list-group-item{
     object-fit: cover;
 }
 
-/*  */
+.aboutALC img{
+    width: 80%;
+}
+
+/* creates wrapped footer for smaller screens */
 @media screen and (max-width:500px){
 .infoFooter{
     flex-wrap: wrap;
