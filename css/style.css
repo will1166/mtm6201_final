@@ -175,6 +175,7 @@ a.btn.btn-secondary {
 
 button{
     width: 100%;
+    color: var(--text-black) !important;
 }
 
 /* disable hover effects for secondary button on smaller screens */
@@ -337,6 +338,16 @@ footer .list-group-item{
 
 .aboutALC img{
     width: 80%;
+}
+
+/* adds style to the form */
+.form-group label{
+    font-size: 1.5em;
+}
+
+.form-group input,
+.form-group textarea{
+    border: 2px solid var(--primary-colour);
 }
 
 /* creates wrapped footer for smaller screens */
