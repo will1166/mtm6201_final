@@ -384,17 +384,6 @@ footer .list-group-item{
         align-self: center;
         justify-content: center;
     }
-
-    .openingImage img{
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .classesImage img{
-        width: 80%;
-        max-width: 400px;
-    }
-    
 }
 
 /* media query for desktop */
@@ -439,11 +428,6 @@ footer .list-group-item{
         display: flex;
         align-self: center;
         justify-content: center;
-    }
-
-    .openingImage img{
-        width: 70%;
-        object-fit: contain;
     }
 
     /* animation for the join the ALC button */
