@@ -174,8 +174,6 @@ main h3{
 
 
 a.btn.btn-secondary {
-    display: inline-block;
-    width: 100%;
     border: 5px solid var(--primary-colour) !important;
     background-color: var(--background-white) !important;
     color: var(--text-black) !important;
