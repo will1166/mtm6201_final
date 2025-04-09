@@ -173,12 +173,16 @@ main h3{
 }
 
 
-button{
+a.btn.btn-secondary {
+    display: inline-block;
     width: 100%;
+    border: 5px solid var(--primary-colour) !important;
+    background-color: var(--background-white) !important;
+    color: var(--text-black) !important;
 }
 
-.btn:hover{
-    color: var(--text-black) !important;
+button{
+    width: 100%;
 }
 
 /* disable hover effects for secondary button on smaller screens */
