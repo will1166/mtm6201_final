@@ -338,6 +338,28 @@ footer .list-group-item{
     object-fit: cover;
 }
 
+/*  */
+@media screen and (max-width:500px){
+.infoFooter{
+    flex-wrap: wrap;
+}
+
+.infoFooter img{
+    width: 50%;
+}
+
+.infoFooter .contactALC{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.socialMedia{
+    margin-bottom: 0.8em;
+}
+}
+
+
 /* media query for tablet */
 @media screen and (min-width: 768px){
     body h1{
