@@ -216,7 +216,12 @@ button{
     text-decoration: none;
     color: var(--text-black);
 }
+/* sets the image smaller for smaller screens */
+.meetALC img{
+    width: 80%;
+}
 
+/* style for the join section */
 .joinALC{
     background-color: var(--text-black);
 }
