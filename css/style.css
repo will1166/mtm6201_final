@@ -214,8 +214,8 @@ button{
     color: var(--text-black);
 }
 /* sets the image smaller for smaller screens */
-.meetALC img{
-    width: 80%;
+.meetALC picture{
+    margin: 0 auto;
 }
 
 /* style for the join section */
