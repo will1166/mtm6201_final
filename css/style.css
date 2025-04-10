@@ -722,4 +722,17 @@ footer .list-group-item{
         -webkit-transform:scaleX(1);
         transform:scaleX(1);
     }
+    
+    /* adjusts footer for desktop */
+    .list-group{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 3em;
+    }
+
+    .list-group-item:nth-child(3){
+        grid-column: 2;
+        grid-row: 1;
+    }
 }
