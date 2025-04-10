@@ -480,6 +480,8 @@ footer .list-group-item{
     }
 
     .contactALC{
+        align-items: flex-start !important;
+        margin-left: 7em !important;
         text-align: left !important;
     }
     
@@ -724,6 +726,11 @@ footer .list-group-item{
     }
     
     /* adjusts footer for desktop */
+
+    .contactALC{
+        margin-left: 10em !important;
+    }
+
     .list-group{
         display: grid;
         grid-template-columns: 1fr 1fr;
