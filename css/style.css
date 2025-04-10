@@ -549,6 +549,8 @@ footer .list-group-item{
 
     .meetALC a{
         font-size: 1.25em;
+        width: 50% !important;
+        align-items: center !important;
     }
 
     /* adjusts joinALC for desktop */
