@@ -535,9 +535,13 @@ footer .list-group-item{
         margin-left: 2em;
     }
 
-    /* image smaller for desktop */
+    /* image and button smaller for desktop */
     .meetALC picture{
         width: 40%;
+    }
+
+    .meetALC a{
+        font-size: 1.25em;
     }
 
     /* adjusts joinALC for desktop */
