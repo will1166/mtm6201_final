@@ -322,6 +322,11 @@ footer .list-group-item{
     background-color: var(--opacity-primary-color);
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: var(--text-black);  
+    color: var(--background-white) !important; 
+}
+
 /* CSS for the about page */
 .card-body{
     width: 100%;
