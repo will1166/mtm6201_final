@@ -19,10 +19,10 @@
           <a href="#mainContent" id="skipToMainContent">Skip to main content</a>
       </div>
       <div class="container">
-          <header role="banner">
+          <header role="banner" itemscope itemtype="https://schema.org/Organization">
               <nav role="navigation" class="navbar bg-body-tertiary fixed-top d-xl-none">
                   <div class="container">
-                      <a class="navbar-brand" href="./index.html"><img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre"></a>
+                      <a class="navbar-brand" href="./index.html"><img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre" itemprop="logo"></a>
                       <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -68,7 +68,7 @@
             <section class="openingHours order-xl-1 mt-3">
               <h2 class="headingSchedule px-3 py-2 fw-bold">Opening Hours</h2>
               <p class="px-3">Ready to be part of the ALC community? <strong>Check out our opening hours, plan your visit, and join us!</strong></p>
-              <div class="contentOpening">
+              <div class="contentOpening" itemscope itemtype="https://schema.org/SportsActivityLocation">
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                     <h3 class="accordion-header fw-bold">
@@ -78,17 +78,17 @@
                       </h3>
                       <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p><strong>Public Skate</strong></p>
-                            <p class="py-1 px-3">Mondays to Sundays: 12:00 PM – 5:00 PM</p>
-                            <p><strong>Community Rec League</strong></p>
-                            <p class="py-1 px-3">Mondays to Tuesdays: 6:00 PM – 9:00 PM</p>
-                            <p class="py-1 px-3">Wednesdays to Thursdays: 6:00 PM – 9:00 PM</p>
-                            <p class="py-1 px-3">Fridays: 6:00 PM – 10:00 PM</p>
-                            <p class="py-1 px-3">Saturdays: 8:00 PM – 10:00 PM</p>
-                            <p><strong>Free Lunch Skate</strong></p>
-                            <p class="py-1 px-3">Wednesday: 12:00 PM – 1:00 PM</p>
-                            <p><strong>Family Fun Skate</strong></p>
-                            <p class="py-1 px-3">Saturday: 5:00 PM – 8:00 PM</p>
+                            <p><strong itemprop="name">Public Skate</strong></p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Mo-Tu 12:00-17:00">Mondays to Sundays: 12:00 PM – 5:00 PM</p>
+                            <p><strong itemprop="name">Community Rec League</strong></p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Mo-Tu 18:00-21:00">Mondays to Tuesdays: 6:00 PM – 9:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="We-Th 18:00-21:00">Wednesdays to Thursdays: 6:00 PM – 9:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Fr 18:00-22:00">Fridays: 6:00 PM – 10:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Sa 20:00-22:00">Saturdays: 8:00 PM – 10:00 PM</p>
+                            <p><strong itemprop="name">Free Lunch Skate</strong></p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="We 12:00-13:00">Wednesday: 12:00 PM – 1:00 PM</p>
+                            <p><strong itemprop="name">Family Fun Skate</strong></p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Sa 17:00-20:00">Saturday: 5:00 PM – 8:00 PM</p>
                         </div>
                       </div>
                     </div>
@@ -100,9 +100,9 @@
                       </h3>
                       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p><strong>Public Swim</strong></p>
-                            <p class="py-1 px-3">Mondays to Sundays: 12:00 PM – 9:00 PM</p>
-                            <p class="py-1 px-3">Saturdays: 12:00 PM – 10:00 PM</p>
+                            <p><strong itemprop="name">Public Swim</strong></p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Mo-Su 12:00-21:00">Mondays to Sundays: 12:00 PM – 9:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Sa 12:00-22:00">Saturdays: 12:00 PM – 10:00 PM</p>
                             <p class="py-1 px-3">Sundays: Pool not available for Public Swim</p>
                         </div>
                       </div>
@@ -115,9 +115,9 @@
                       </h3>
                       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p class="py-1 px-3">Mondays to Thursdays: 9:00 AM – 9:00 PM</p>
-                            <p class="py-1 px-3">Fridays & Saturdays: 9:00 AM – 10:00 PM</p>
-                            <p class="py-1 px-3">Sundays: 9:00 AM – 5:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Mo-Th 9:00-21:00">Mondays to Thursdays: 9:00 AM – 9:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Fr-Sa 9:00-22:00">Fridays & Saturdays: 9:00 AM – 10:00 PM</p>
+                            <p class="py-1 px-3" itemprop="openingHours" content="Su 9:00-17:00">Sundays: 9:00 AM – 5:00 PM</p>
                       </div>
                     </div>
                     <div class="accordion-item">
@@ -128,8 +128,8 @@
                         </h3>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p class="py-1 px-3">Mondays to Saturdays: 6:00 AM – 10:00 PM</p>
-                                <p class="py-1 px-3">Sundays: 6:00 AM – 6:00 PM</p>
+                                <p class="py-1 px-3" itemprop="openingHours" content="Mo-Sa 6:00-22:00">Mondays to Saturdays: 6:00 AM – 10:00 PM</p>
+                                <p class="py-1 px-3" itemprop="openingHours" content="Su 6:00-18:00">Sundays: 6:00 AM – 6:00 PM</p>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -140,9 +140,9 @@
                             </h3>
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                <p class="py-1 px-3">Mondays to Fridays: 6:00 AM – 10:00 PM</p>
-                                <p class="py-1 px-3">Saturdays: 6:00 AM – 10:00 PM</p>
-                                <p class="py-1 px-3">Sundays: 6:00 AM – 10:00 PM</p>
+                                <p class="py-1 px-3" itemprop="openingHours" content="Mo-Fr 6:00-22:00">Mondays to Fridays: 6:00 AM – 10:00 PM</p>
+                                <p class="py-1 px-3" itemprop="openingHours" content="Sa 6:00-22:00">Saturdays: 6:00 AM – 10:00 PM</p>
+                                <p class="py-1 px-3" itemprop="openingHours" content="Su 6:00-22:00">Sundays: 6:00 AM – 10:00 PM</p>
                                 <p><strong>Check out our class schedule below for specific times!</strong></p>
                               </div>
                             </div>
@@ -163,7 +163,7 @@
               <p class="pt-2 px-3">Looking for classes that fit your health goals? <strong>Take a look at out our classes schedule below!</strong></p>
               <div class="contentClasses">
                 <div class="accordion" id="accordionClasses">
-                  <div class="accordion-item">
+                  <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                     <h3 class="accordion-header fw-bold">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                             Swimming Lessons (Lanes 5 & 6)
@@ -171,94 +171,94 @@
                     </h3>
                     <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                       <div class="accordion-body">
-                        <p class="py-1 px-3">Mondays to Fridays: 4:00 PM – 7:00 PM</p>
-                        <p class="py-1 px-3">Saturdays: 11:00 AM – 4:00 PM</p>
+                        <p class="py-1 px-3" itemprop="startDate" content="Mo-Fr 16:00-19:00">Mondays to Fridays: 4:00 PM – 7:00 PM</p>
+                        <p class="py-1 px-3" itemprop="startDate" content="Sa 11:00-16:00">Saturdays: 11:00 AM – 4:00 PM</p>
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                       <h3 class="accordion-header fw-bold">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                           Aquacise Class (Diving Pool)
                         </button>
                       </h3>
-                      <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                         <div class="accordion-body">
-                          <p class="py-1 px-3">Mondays to Fridays: 7:00 AM – 11:00 AM</p>
-                          <p class="py-1 px-3">Saturdays & Sundays: 9:00 AM – 11:00 AM</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="Mo-Fr 7:00-11:00">Mondays to Fridays: 7:00 AM – 11:00 AM</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="Sa-Su 9:00-11:00">Saturdays & Sundays: 9:00 AM – 11:00 AM</p>
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                       <h3 class="accordion-header fw-bold">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                           Pilates
                         </button>
                       </h3>
-                      <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                         <div class="accordion-body">
-                          <p class="py-1 px-3">Mondays to Tuesdays: 9:00 AM – 10:00 AM (Studio 1)</p>
-                          <p class="py-1 px-3">Wednesdays: 11:00 AM – 12:00 PM (Studio 1)</p>
-                          <p class="py-1 px-3">Fridays: 9:00 AM – 10:00 AM (Studio 1)</p>
-                          <p class="py-1 px-3">Saturdays: 11:00 AM – 12:00 PM (Studio 2)</p>
-                          <p class="py-1 px-3">Sundays: 9:00 AM – 10:00 AM (Studio 1)</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="Mo-Tu 9:00-10:00">Mondays to Tuesdays: 9:00 AM – 10:00 AM (Studio 1)</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="We 11:00-12:00">Wednesdays: 11:00 AM – 12:00 PM (Studio 1)</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="Fr 9:00-10:00">Fridays: 9:00 AM – 10:00 AM (Studio 1)</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="Sa 11:00-12:00">Saturdays: 11:00 AM – 12:00 PM (Studio 2)</p>
+                          <p class="py-1 px-3" itemprop="startDate" content="Su 9:00-10:00">Sundays: 9:00 AM – 10:00 AM (Studio 1)</p>
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                       <h3 class="accordion-header fw-bold">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             Gentle Yoga
                           </button>
                       </h3>
-                      <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                         <div class="accordion-body">
-                           <p class="py-1 px-3">Mondays: 9:00 AM – 10:00 AM (Studio 2)</p>
-                           <p class="py-1 px-3">Thursdays: 6:00 PM – 7:00 PM (Studio 1)</p>
-                           <p class="py-1 px-3">Fridays: 6:00 PM – 7:00 PM (Studio 2)</p>
-                           <p class="py-1 px-3">Saturdays: 6:00 PM – 7:00 PM (Studio 1)</p>
-                           <p class="py-1 px-3">Sundays: 6:00 PM – 7:00 PM (Studio 2)</p>
+                           <p class="py-1 px-3" itemprop="startDate" content="Mo 9:00-10:00">Mondays: 9:00 AM – 10:00 AM (Studio 2)</p>
+                           <p class="py-1 px-3" itemprop="startDate" content="Th 18:00-19:00">Thursdays: 6:00 PM – 7:00 PM (Studio 1)</p>
+                           <p class="py-1 px-3" itemprop="startDate" content="Fr 18:00-19:00">Fridays: 6:00 PM – 7:00 PM (Studio 2)</p>
+                           <p class="py-1 px-3" itemprop="startDate" content="Sa 18:00-19:00">Saturdays: 6:00 PM – 7:00 PM (Studio 1)</p>
+                           <p class="py-1 px-3" itemprop="startDate" content="Su 18:00-19:00">Sundays: 6:00 PM – 7:00 PM (Studio 2)</p>
                           </div>
                         </div>
                       </div>
-                      <div class="accordion-item">
+                      <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                         <h3 class="accordion-header fw-bold">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                 Jamboree (Moms & Toddlers)
                               </button>
                         </h3>
-                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                           <div class="accordion-body">
-                            <p class="py-1 px-3">Wednesdays: 11:00 AM – 12:00 PM (Studio 1)</p>
-                            <p class="py-1 px-3">Saturdays: 1:00 PM – 2:00 PM (Studio 2)</p>
-                            <p class="py-1 px-3">Sundays: 11:00 AM – 12:00 PM (Studio 2)</p>
+                            <p class="py-1 px-3" itemprop="startDate" content="We 11:00-12:00">Wednesdays: 11:00 AM – 12:00 PM (Studio 1)</p>
+                            <p class="py-1 px-3" itemprop="startDate" content="Sa 13:00-14:00">Saturdays: 1:00 PM – 2:00 PM (Studio 2)</p>
+                            <p class="py-1 px-3" itemprop="startDate" content="Su 11:00-12:00">Sundays: 11:00 AM – 12:00 PM (Studio 2)</p>
                           </div>
                         </div>
                       </div>
-                      <div class="accordion-item">
+                      <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                         <h3 class="accordion-header fw-bold">
                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                     Zumba
                                   </button>
                           </h3>
-                          <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                             <div class="accordion-body">
-                              <p class="py-1 px-3">Wednesdays: 5:00 PM – 6:00 PM (Studio 2)</p>
-                              <p class="py-1 px-3">Fridays: 10:30 AM – 11:30 AM (Studio 2)</p>
-                              <p class="py-1 px-3">Saturdays: 3:00 PM – 4:00 PM (Studio 2)</p>
+                              <p class="py-1 px-3" itemprop="startDate" content="We 17:00-18:00">Wednesdays: 5:00 PM – 6:00 PM (Studio 2)</p>
+                              <p class="py-1 px-3" itemprop="startDate" content="Fr 10:30-11:30">Fridays: 10:30 AM – 11:30 AM (Studio 2)</p>
+                              <p class="py-1 px-3" itemprop="startDate" content="Sa 15:00-16:00">Saturdays: 3:00 PM – 4:00 PM (Studio 2)</p>
                             </div>
                           </div>
-                          <div class="accordion-item">
+                          <div class="accordion-item" itemscope itemtype="https://schema.org/SportsEvent">
                             <h3 class="accordion-header fw-bold">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                         Senior Fit
                                       </button>
                             </h3>
-                            <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionClasses">
                               <div class="accordion-body">
-                                <p class="py-1 px-3">Fridays: 9:00 AM – 10:00 AM (Studio 2)</p>
-                                <p class="py-1 px-3">Saturdays: 9:00 AM – 10:00 AM (Studio 1), 10:30 AM – 11:30 AM (Studio 1)</p>
-                                <p class="py-1 px-3">Sundays: 9:00 AM – 10:00 AM (Studio 2)</p>
+                                <p class="py-1 px-3" itemprop="startDate" content="Fr 9:00-10:00">Fridays: 9:00 AM – 10:00 AM (Studio 2)</p>
+                                <p class="py-1 px-3" itemprop="startDate" content="Sa 9:00-10:00">Saturdays: 9:00 AM – 10:00 AM (Studio 1), 10:30 AM – 11:30 AM (Studio 1)</p>
+                                <p class="py-1 px-3" itemprop="startDate" content="Su 9:00-10:00">Sundays: 9:00 AM – 10:00 AM (Studio 2)</p>
                               </div>
                             </div>
                           </div>
@@ -278,24 +278,24 @@
             </section>
         </main>
         <footer role="contentinfo">
-          <div class="infoFooter">
-              <img class="img-fluid" src="./images/logo/logo-ACL.png" alt="ACL's logo">
+          <div class="infoFooter" itemscope itemtype="https://schema.org/Organization">
+              <img class="img-fluid" src="./images/logo/logo-ACL.png" alt="ACL's logo" itemprop="logo">
               <div class="contactALC">
-                  <p>Our Phone Number:<strong> (343) 2504-0012</strong></p>
-                  <p>Our Email: <strong>alclifecentre@ipsum.com</strong></p>
+                  <p>Our Phone Number:<strong itemprop="telephone"><br> (343) 2504-0012</strong></p>
+                  <p>Our Email: <strong itemprop="email">alclifecentre@ipsum.com</strong></p>
                   <p class="socialMedia">Our Social Media:</p>
                   <div class="socialMediaIcons">
-                      <a href="https://www.facebook.com/" target="_blank">
+                      <a href="https://www.facebook.com/" target="_blank" itemprop="sameAs">
                           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                           </svg>    
                       </a>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a href="https://www.instagram.com/" target="_blank" itemprop="sameAs">
                           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                           </svg>    
                       </a>
-                      <a href="https://x.com" target="_blank">
+                      <a href="https://x.com" target="_blank" itemprop="sameAs">
                           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                               <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
                           </svg>   
@@ -312,7 +312,7 @@
                   <li class="list-group-item"><a href="#">Join the ALC</a></li>
               </ul>
           </div>
-      </footer>          
+      </footer>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
