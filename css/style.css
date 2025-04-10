@@ -465,6 +465,43 @@ footer .list-group-item{
         align-self: center;
         justify-content: center;
     }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .infoFooter{
+        width: 60%;
+    }
+    
+    .infoFooter img{
+        width: 30%;
+    }
+
+    .contactALC{
+        text-align: left !important;
+    }
+    
+    .list-group-item{
+        text-align: left !important;
+    }
+
+    .siteMap{
+        width: 25%;
+        padding: 1em 1em 0 1em;
+        position: relative;
+    }
+
+    .siteMap::before{
+        content: "";
+        position: absolute;
+        top: 0.5em;
+        left: 0;
+        bottom: 0.5em;
+        width: 1px;
+        background-color: var(--background-white);
+    }
 }
 
 /* media query for desktop */
