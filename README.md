@@ -1,31 +1,35 @@
 # mtm6201_final
 ## Overview
-This is my final project for the Web Dev II course. As part of the second term for the Interactive Media Design, I had to create an user-friendly and effective interface for a new Recreation Centre opening soon in Ottawa. 
+This is my final project for the Web Dev II course. As part of the second term of the Interactive Media Design program at Algonquin College, I had to create an user-friendly and effective interface for a new Recreation Centre opening soon in Ottawa. 
 
 ## Project Process
-A prototype was created on Figma. For the website, I used a mobile-first responsive layout using Bootstrap 5 and custom CSS variables to adjust to the color scheme for my website. 
+A prototype was created on Figma. For the website, I used a mobile-first responsive layout with Bootstrap 5 and custom CSS variables to adjust the color scheme for the site. 
 
-### Challenges and Solutions
-The overall challenge was to balance between the prototyping and the coding. What sometimes looks functional, it might be too hard to make it function properly. 
+## Challenges and Solutions
+The overall challenge was balancing the prototyping and coding phases. What sometimes looks functional in a prototype might be too difficult to implement properly. 
 
 Using Bootstrap 5 also helped me to implement the accordion for the Schedule page and make a functional carousel for the home page.
 
-One issue I had to face between prototyping and coding was the footer not wrapping properly on smaller screens, an issue I noticed when coding. So I had to create a special, one-column layout footer for these smaller screens.
+One issue I had to face between prototyping and coding was the footer not wrapping properly on smaller screens, an issue I noticed when coding. To resolve this, I created a special one-column layout footer for smaller screens.
 
-I also had to make the choice to not go with the different opening for the offcanvas menu on tablet version. I was afraid of adding another offcanvas menu and it would make the code heavy, as I already had two navbars for the different screen sizes (mobile and desktop). 
+I also decided not to use a different opening for the off-canvas menu on the tablet version. I was afraid of adding another offcanvas menu and it would make the code heavy, as I already had two navbars for the different screen sizes (mobile and desktop). 
+
+## Technologies Used
+**Bootstrap 5**: For layout and responsive design, as well as SVG icons.
+**Hover.css**: For the hovering transitions on desktop. 
+**Google Fonts**: For custom fonts (Raleway and DM Sans).
+**Figma**: For prototyping.
+**GitHub Pages**: For project hosting. 
+
 
 ## Assets
-Below, you will find some of the assets and resources used on the Active Life Centre's website:
-
-### Frameworks and Libraries
-**Bootstrap 5**: For layout and responsive design, as well as SVG icons.
-**Hover.css**: For the hovering transitions on the desktop version. 
+Below are some of the assets and resources used on the Active Life Centre’s website:
 
 ### Fonts
 **Google Fonts**: For the Raleway and DM Sans fonts used on the project.
 
 ### Images
-All the images were retrieved from websites that offer royalties-free pictures. The selected pictures for each page, as it follows:
+All the images were retrieved from websites that offer royalties-free pictures. The selected images for each page are as follows:
 
 - **Pictures for the Home page (index.html):**
     - Hero image (swimming class) picture, retrieved from Pixabay: https://pixabay.com/photos/swimming-lesson-boy-water-286211/ 
@@ -48,4 +52,4 @@ All the images were retrieved from websites that offer royalties-free pictures. 
     - Emily Mitchell picture, retrieved from Pixabay: https://pixabay.com/photos/sports-fitness-leggings-training-1005885/  
 
 ## View the Project
-A live version of the project is available on [GitHub Pages](https://will1166.github.io/mtm6201_final/)
+A live version of the project is available on [GitHub Pages](https://will1166.github.io/mtm6201_final/).
