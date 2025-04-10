@@ -215,6 +215,7 @@ button{
 }
 /* sets the image smaller for smaller screens */
 .meetALC picture{
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -412,6 +413,15 @@ footer .list-group-item{
         max-width: 200px;
         height: 200px;
         object-fit: cover;
+    }
+
+    /* image larger for tablet */
+    .meetALC picture{
+        width: 50%;
+    }
+
+    .meetALC a{
+        margin: 0 1em;
     }
 
     /* adjusts the meet the ALC section to tablet */
