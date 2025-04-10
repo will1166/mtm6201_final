@@ -535,6 +535,17 @@ footer .list-group-item{
         margin-left: 2em;
     }
 
+    /* image smaller for desktop */
+    .meetALC picture{
+        width: 40%;
+    }
+
+    .joinALC{
+        position: absolute;
+        top: 100px;
+        left: 200px;
+    }
+
     /* set grid size for the desktop */
     .accordion{
         width: 100%;
