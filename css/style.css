@@ -567,6 +567,12 @@ footer .list-group-item{
         justify-content: center;
     }
 
+    /* makes button smaller for desktop */
+    form button{
+        width: 50%;
+        align-self: flex-end;
+    }
+
     /* animation for the join the ALC button */
     .hvr-bounce-to-right{
         display:inline-block;
