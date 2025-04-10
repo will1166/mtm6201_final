@@ -19,7 +19,7 @@
         <a href="#mainContent" id="skipToMainContent">Skip to main content</a>
     </div>
     <div class="container">
-        <header role="banner">
+        <header role="banner" itemscope itemtype="https://schema.org/Organization">
             <nav role="navigation" class="navbar bg-body-tertiary fixed-top d-xl-none">
                 <div class="container">
                     <a class="navbar-brand" href="./index.html"><img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre"></a>
@@ -53,7 +53,7 @@
             <nav role="navigation" class="navbar bg-body-tertiary fixed-top d-none d-xl-flex">
                 <div class="container d-flex justify-content-between align-items-center">
                     <a class="navbar-brand" href="./index.html">
-                        <img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre">
+                        <img src="./images/logo/logo-ACL.png" alt="logo for the Active Life Centre" itemprop="logo">
                     </a>
                     <ul class="navbar-nav navbarDesktop d-flex flex-row gap-4 fw-bold">
                         <li class="nav-item" id="skipToNavDesktop"><a class="nav-link active" href="./schedule.html">Schedule</a></li>
@@ -64,28 +64,28 @@
                 </div>
             </nav>
         </header> 
-        <main role="main" id="mainContent" class="d-flex flex-column">
+        <main role="main" id="mainContent" class="d-flex flex-column" itemscope itemtype="https://schema.org/SportsActivityLocation">
             <section class="aboutALC order-xl-1 mt-3">
                 <div class="row">
                     <div class="col-12 col-md-6 order-md-2 d-flex flex-column justify-content-start">
-                        <h3 class="fw-bold px-3 py-2 mt-3">About the ALC</h3>
+                        <h3 class="fw-bold px-3 py-2 mt-3" itemprop="name">About the ALC</h3>
                         <div class="aboutPics col-md-6 order-md-1 d-flex flex-column">
                             <picture class="py-3 d-flex d-md-none d-xl-none">
                                 <source srcset="images/about/small/pool-ALC.jpg" media="(max-width:768px)">
-                                <img src="./images/about/large/pool-ALC.jpg" alt="Pool at the Active Life Centre" class="mx-auto">
+                                <img src="./images/about/large/pool-ALC.jpg" alt="Pool at the Active Life Centre" class="mx-auto" itemprop="image">
                             </picture>
                         </div>    
-                        <p class="px-3"><strong>At the ALC, we create a space where health, fitness, and community come together.</strong> Whether you’re starting your fitness journey or looking to elevate your routine, our centre offers a welcoming environment for all.</p>
-                        <p class="px-3">With <strong>a variety of classes and programs, </strong>we help you reach your health goals while connecting with like-minded individuals. <strong>Join our  community committed to living an active and healthy lifestyle!</strong></p>
+                        <p class="px-3" itemprop="description"><strong>At the ALC, we create a space where health, fitness, and community come together.</strong> Whether you’re starting your fitness journey or looking to elevate your routine, our centre offers a welcoming environment for all.</p>
+                        <p class="px-3" itemprop="description">With <strong>a variety of classes and programs, </strong>we help you reach your health goals while connecting with like-minded individuals. <strong>Join our  community committed to living an active and healthy lifestyle!</strong></p>
                     </div>
                     <div class="aboutPics col-md-6 order-md-1 d-flex flex-column">
                         <picture class="py-3 d-none d-md-flex d-xl-flex">
                             <source srcset="images/about/small/pool-ALC.jpg" media="(max-width:768px)">
-                            <img src="./images/about/large/pool-ALC.jpg" alt="Pool at the Active Life Centre" class="mx-auto">
+                            <img src="./images/about/large/pool-ALC.jpg" alt="Pool at the Active Life Centre" class="mx-auto" itemprop="image">
                         </picture>
                         <picture class="py-3">
                             <source srcset="images/about/small/ice-rink.jpg" media="(max-width:768px)">
-                            <img src="./images/about/large/ice-rink.jpg" alt="Ice Rink at the Active Life Centre" class="mx-auto">
+                            <img src="./images/about/large/ice-rink.jpg" alt="Ice Rink at the Active Life Centre" class="mx-auto" itemprop="image">
                         </picture>
                     </div>    
                 </div>
@@ -95,65 +95,65 @@
                     <h3 class="fw-bold px-3 py-2">ALC's Staff</h3>
                     <p class="px-3">Meet our team – <strong>here to support your fitness journey!</strong></p>
                     <div class="employeesALC row px-3">
-                        <div class="employeeJohn col-4">
+                        <div class="employeeJohn col-4" itemscope itemtype="https://schema.org/Person">
                             <picture class="pb-3">
                                 <source srcset="images/about/small/john-anthony.jpg" media="(max-width:768px)">
-                                <img src="./images/about/large/john-anthony.jpg" alt="John Anthony">
+                                <img src="./images/about/large/john-anthony.jpg" alt="John Anthony" itemprop="image">
                             </picture>
-                            <h4><strong>John Anthony</strong></h4>
-                            <p>ALC Coordinator</p>
+                            <h4><strong itemprop="name">John Anthony</strong></h4>
+                            <p itemprop="jobTitle">ALC Coordinator</p>
                         </div>
-                        <div class="employeeJason col-4">
+                        <div class="employeeJason col-4" itemscope itemtype="https://schema.org/Person">
                             <picture class="pb-3">
-                                <img src="./images/about/large/jason-richards.jpg" alt="Jason Richards">
+                                <img src="./images/about/large/jason-richards.jpg" alt="Jason Richards" itemprop="image">
                             </picture>
-                            <h4><strong>Jason Richards</strong></h4>
-                            <p>Community Leader</p>
+                            <h4><strong itemprop="name">Jason Richards</strong></h4>
+                            <p itemprop="jobTitle">Community Leader</p>
                         </div>
-                        <div class="employeeEmily col-4">
+                        <div class="employeeEmily col-4" itemscope itemtype="https://schema.org/Person">
                             <picture class="pb-3">
                                 <source srcset="images/about/small/emily-mitchell.jpg" media="(max-width:768px)">
-                                <img src="./images/about/large/emily-mitchell.jpg" alt="Emily Mitchell">
+                                <img src="./images/about/large/emily-mitchell.jpg" alt="Emily Mitchell" itemprop="image">
                             </picture>
-                            <h4><strong>Emily Mitchell</strong></h4>
-                            <p>Wellness Specialist</p>
+                            <h4><strong itemprop="name">Emily Mitchell</strong></h4>
+                            <p itemprop="jobTitle">Wellness Specialist</p>
                         </div>
                     </div>
                 </section>
-                <section id="formALC" class="my-4 col-xl-6">
+                <section id="formALC" class="my-4 col-xl-6" itemscope itemtype="https://schema.org/ContactPage">
                     <h3 class="fw-bold px-3 py-2">Contact the ALC</h3>
                     <p class="px-3">Do you have any questions? <strong>Let us know how we can help you!</strong></p>
                     <form class="d-lg-flex flex-column">
                         <div class="form-group pb-3">
                             <label for="exampleInputName1">Name</label>
-                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Name">
+                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Name" itemprop="name">
                           </div>
                         <div class="form-group pb-3">
                           <label for="exampleInputEmail1">Email Address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email Address">
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email Address" itemprop="emails">
                         </div>
                         <div class="form-group pb-3">
                             <label for="exampleFormControlTextarea1">Send us your message:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message Here" rows="6"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message Here" rows="6" itemprop="message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-secondary hvr-sweep-to-right mb-3 fw-bold">Send</button>
                       </form> 
                       <div class="card d-lg-none d-sm-none d-xl-flex">
-                        <div class="card-body">
+                        <div class="card-body" itemscope itemtype="https://schema.org/ContactPoint">
                             <div class="row">
                                 <div class="phoneNumber col-md-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-inbound mb-2" viewBox="0 0 16 16">
                                         <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
                                           </svg>
                                       <h5 class="card-title">Our Phone Number:</h5>
-                                      <p class="card-text"><strong>(343) 2504-0012</strong></p>
+                                      <p class="card-text"><strong itemprop="telephone">(343) 2504-0012</strong></p>
                                     </div>
                                     <div class="email col-md-6">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill mb-2" viewBox="0 0 16 16">
                                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                                         </svg>
                                         <h5 class="card-title">Our Email:</h5>
-                                          <p class="card-text"><strong>alclifecentre@ipsum.com</strong></p>
+                                          <p class="card-text"><strong itemprop="email">alclifecentre@ipsum.com</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -188,24 +188,24 @@
             </section>
         </main>
         <footer role="contentinfo">
-            <div class="infoFooter">
-                <img class="img-fluid" src="./images/logo/logo-ACL.png" alt="ACL's logo">
+            <div class="infoFooter" itemscope itemtype="https://schema.org/Organization">
+                <img class="img-fluid" src="./images/logo/logo-ACL.png" alt="ACL's logo" itemprop="logo">
                 <div class="contactALC">
-                    <p>Our Phone Number:<strong> (343) 2504-0012</strong></p>
-                    <p>Our Email: <strong>alclifecentre@ipsum.com</strong></p>
+                    <p>Our Phone Number:<strong itemprop="telephone"><br> (343) 2504-0012</strong></p>
+                    <p>Our Email: <strong itemprop="email">alclifecentre@ipsum.com</strong></p>
                     <p class="socialMedia">Our Social Media:</p>
                     <div class="socialMediaIcons">
-                        <a href="https://www.facebook.com/" target="_blank">
+                        <a href="https://www.facebook.com/" target="_blank" itemprop="sameAs">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                             </svg>    
                         </a>
-                        <a href="https://www.instagram.com/" target="_blank">
+                        <a href="https://www.instagram.com/" target="_blank" itemprop="sameAs">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                             </svg>    
                         </a>
-                        <a href="https://x.com" target="_blank">
+                        <a href="https://x.com" target="_blank" itemprop="sameAs">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                                 <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
                             </svg>   
@@ -222,7 +222,7 @@
                     <li class="list-group-item"><a href="#">Join the ALC</a></li>
                 </ul>
             </div>
-        </footer>          
+        </footer> 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
