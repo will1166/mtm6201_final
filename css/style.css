@@ -438,6 +438,15 @@ footer .list-group-item{
         width: 90% !important;
     }
 
+    /* makes the contact card full-width on tablet */
+    .card{
+        width: 100%;
+    }
+
+    .email{
+        padding-top: 0 !important;
+    }
+
     /* makes the get more details bar different for tablet */
     .joinALC h4{
         font-size: 1.5em !important;
