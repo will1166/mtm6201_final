@@ -440,7 +440,7 @@ footer .list-group-item{
 
     /* makes the get more details bar different for tablet */
     .joinALC h4{
-        font-size: 2em !important;
+        font-size: 1.5em !important;
     }
 
     .joinALC button{
@@ -561,6 +561,11 @@ footer .list-group-item{
     .joinALC{
         margin: 0 !important;
         margin-top: 1em !important;
+        font-size: 0.8em;
+    }
+
+    .joinALC button{
+        font-size: 1.5em;
     }
 
     .heroSection{
