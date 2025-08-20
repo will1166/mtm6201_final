@@ -55,7 +55,7 @@ body p{
     z-index: 1050;
     display: flex;
     gap: 3em;
-    font-size: 1.2em;
+    font-size: 1em;
     padding-left: 1.5em;  
 }
 
@@ -413,6 +413,11 @@ footer .list-group-item{
         width: 10%;
     }
 
+    /* increases skip links font size to tablet */
+    .skip-links {
+        font-size: 1.2em;
+    }
+
     /* makes images larger for activities section on the homepage */
     .alcActivities img{
         max-width: 200px;
@@ -550,6 +555,12 @@ footer .list-group-item{
         font-size: 1.35em;
         margin-left: 2em;
     }
+
+    /* increases skip links font size to desktop */
+    .skip-links {
+        font-size: 1.2em;
+    }
+    
 
     /* image and button smaller for desktop */
     .meetALC picture{
